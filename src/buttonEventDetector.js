@@ -15,14 +15,14 @@ class ButtonEventDetector {
 
         const events = [];
 
-        // BUTTON DOWN
+        // BUTTON DOWN = PRESS
         if (state === true) {
             this.pressStart = now;
             return events;
         }
 
-        // BUTTON UP
-    if (state === false && this.pressStart !== null) {
+        // BUTTON UP = RELEASE
+        if (state === false && this.pressStart !== null) {
 
             const duration = now - this.pressStart;
 
