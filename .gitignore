@@ -1,0 +1,19 @@
+# Dependency directories
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS metadata
+.DS_Store
+
+# Optional npm cache directory
+.npm
+
+# Lock files
+package-lock.json
+
+# VS Code settings
+.vscode/
