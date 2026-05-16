@@ -87,7 +87,7 @@ class ButtonEventDetector {
 
         if (
             this.pendingShort &&
-            now - this.shortTimerTs >= DOUBLE_MAX_GAP
+            (now - this.shortTimerTs) >= DOUBLE_MAX_GAP
         ) {
 
             this.pendingShort = false;
