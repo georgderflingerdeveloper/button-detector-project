@@ -26,7 +26,7 @@ class ButtonEventDetector {
 
             const duration = now - this.pressStart;
 
-            this.pressStart = 0;
+            this.pressStart = null;
 
             // ULTRA LONG
             if (duration >= ULTRA_LONG_MIN) {
